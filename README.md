@@ -9,7 +9,7 @@ Original design reference: https://www.figma.com/design/nv6uoQr3KKbOSBvpP7epWf/N
 NEERIVA is organized in 3 clear layers:
 
 1. **Frontend (React, Vite, Tailwind)**  
-   - Path: `/home/runner/work/NEERIVA/NEERIVA/src`  
+   - Path: `./src`  
    - Handles marketing pages, user dashboard, and admin panel UI.  
    - Uses route-based separation for:
      - Public website (`/`, `/info`, `/contact-support`, `/login`)
@@ -17,7 +17,7 @@ NEERIVA is organized in 3 clear layers:
      - Admin app (`/admin/*`)
 
 2. **Backend API (Node.js, Express)**  
-   - Path: `/home/runner/work/NEERIVA/NEERIVA/server`  
+   - Path: `./server`  
    - MVC-style structure:
      - `routes/` for API endpoints
      - `controllers/` for business logic
@@ -29,7 +29,7 @@ NEERIVA is organized in 3 clear layers:
      - Contact (`/api/contact/*`)
 
 3. **Data Layer (Supabase PostgreSQL)**  
-   - Path: `/home/runner/work/NEERIVA/NEERIVA/supabase/migrations`  
+   - Path: `./supabase/migrations`  
    - Main entities: users, admins, orders, support tickets, contact messages  
    - Security model includes JWT-based API protection and Row Level Security (RLS) patterns.
 
