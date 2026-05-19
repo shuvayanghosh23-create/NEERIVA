@@ -2,7 +2,6 @@
 
 NEERIVA is a full-stack custom water bottle ordering platform with a React + Vite frontend, Express API backend, and Supabase PostgreSQL database support.
 
-Original design reference: https://www.figma.com/design/nv6uoQr3KKbOSBvpP7epWf/NEERIVA
 
 ## Website Architecture
 
